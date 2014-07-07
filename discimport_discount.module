@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Discimport Discount feature.
+ */
+
+include_once 'discimport_discount.features.inc';
