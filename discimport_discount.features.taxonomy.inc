@@ -13,9 +13,9 @@ function discimport_discount_taxonomy_default_vocabularies() {
       'name' => 'Discount group',
       'machine_name' => 'discountgroup',
       'description' => 'Group products together - mainly for discount purposes.',
-      'hierarchy' => '0',
+      'hierarchy' => 0,
       'module' => 'taxonomy',
-      'weight' => '0',
+      'weight' => 0,
     ),
   );
 }
