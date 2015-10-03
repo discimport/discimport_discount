@@ -72,7 +72,7 @@ function discimport_discount_field_default_field_instances() {
         'settings' => array(
           'combine' => TRUE,
           'default_quantity' => 1,
-          'line_item_type' => 'product',
+          'line_item_type' => 'giftcard_purchase',
           'show_quantity' => FALSE,
           'show_single_product_attributes' => FALSE,
         ),
