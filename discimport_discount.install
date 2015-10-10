@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Fix broken coupon add landing page.
+ */
+function discimport_discount_update_7000() {
+	$link = menu_link_load(1216);
+	$link['router_path'] = 'admin/commerce/coupons/add';
+	menu_link_save($link);
+}
