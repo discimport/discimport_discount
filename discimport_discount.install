@@ -4,7 +4,16 @@
  * Fix broken coupon add landing page.
  */
 function discimport_discount_update_7000() {
-	$link = menu_link_load(1216);
-	$link['router_path'] = 'admin/commerce/coupons/add';
-	menu_link_save($link);
+  $link = menu_link_load(1216);
+  $link['router_path'] = 'admin/commerce/coupons/add';
+  menu_link_save($link);
+}
+
+/**
+ * Do not set Giftcards to promote
+ */
+function discimport_discount_update_7001() {
+  variable_set('node_options_gift_card', array(
+    0 => 'status',
+  ));
 }
