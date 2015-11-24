@@ -11,7 +11,7 @@ function discimport_discount_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
-  // 'commerce_coupon-giftcard_coupon-commerce_coupon_conditions'
+  // 'commerce_coupon-giftcard_coupon-commerce_coupon_conditions'.
   $field_instances['commerce_coupon-giftcard_coupon-commerce_coupon_conditions'] = array(
     'bundle' => 'giftcard_coupon',
     'deleted' => 0,
@@ -41,7 +41,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_coupon-giftcard_coupon-commerce_coupon_recipient'
+  // 'commerce_coupon-giftcard_coupon-commerce_coupon_recipient'.
   $field_instances['commerce_coupon-giftcard_coupon-commerce_coupon_recipient'] = array(
     'bundle' => 'giftcard_coupon',
     'default_value' => NULL,
@@ -77,7 +77,8 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_coupon-giftcard_coupon-commerce_gc_name'
+  // Exported field_instance:
+  // 'commerce_coupon-giftcard_coupon-commerce_gc_name'.
   $field_instances['commerce_coupon-giftcard_coupon-commerce_gc_name'] = array(
     'bundle' => 'giftcard_coupon',
     'default_value' => NULL,
@@ -111,7 +112,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_coupon-giftcard_coupon-commerce_gc_value'
+  // 'commerce_coupon-giftcard_coupon-commerce_gc_value'.
   $field_instances['commerce_coupon-giftcard_coupon-commerce_gc_value'] = array(
     'bundle' => 'giftcard_coupon',
     'default_value' => NULL,
@@ -146,7 +147,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_purchase-commerce_display_path'
+  // 'commerce_line_item-giftcard_purchase-commerce_display_path'.
   $field_instances['commerce_line_item-giftcard_purchase-commerce_display_path'] = array(
     'bundle' => 'giftcard_purchase',
     'default_value' => NULL,
@@ -187,7 +188,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_purchase-commerce_gc_mail'
+  // 'commerce_line_item-giftcard_purchase-commerce_gc_mail'.
   $field_instances['commerce_line_item-giftcard_purchase-commerce_gc_mail'] = array(
     'bundle' => 'giftcard_purchase',
     'commerce_cart_settings' => array(
@@ -223,7 +224,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_purchase-commerce_gc_message'
+  // 'commerce_line_item-giftcard_purchase-commerce_gc_message'.
   $field_instances['commerce_line_item-giftcard_purchase-commerce_gc_message'] = array(
     'bundle' => 'giftcard_purchase',
     'commerce_cart_settings' => array(
@@ -260,7 +261,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_purchase-commerce_giftcards'
+  // 'commerce_line_item-giftcard_purchase-commerce_giftcards'.
   $field_instances['commerce_line_item-giftcard_purchase-commerce_giftcards'] = array(
     'bundle' => 'giftcard_purchase',
     'default_value' => NULL,
@@ -297,7 +298,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_purchase-commerce_product'
+  // 'commerce_line_item-giftcard_purchase-commerce_product'.
   $field_instances['commerce_line_item-giftcard_purchase-commerce_product'] = array(
     'bundle' => 'giftcard_purchase',
     'default_value' => NULL,
@@ -353,7 +354,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_purchase-commerce_total'
+  // 'commerce_line_item-giftcard_purchase-commerce_total'.
   $field_instances['commerce_line_item-giftcard_purchase-commerce_total'] = array(
     'bundle' => 'giftcard_purchase',
     'default_value' => NULL,
@@ -415,7 +416,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_purchase-commerce_unit_price'
+  // 'commerce_line_item-giftcard_purchase-commerce_unit_price'.
   $field_instances['commerce_line_item-giftcard_purchase-commerce_unit_price'] = array(
     'bundle' => 'giftcard_purchase',
     'default_value' => NULL,
@@ -477,7 +478,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_use-commerce_giftcard'
+  // 'commerce_line_item-giftcard_use-commerce_giftcard'.
   $field_instances['commerce_line_item-giftcard_use-commerce_giftcard'] = array(
     'bundle' => 'giftcard_use',
     'default_value' => NULL,
@@ -513,7 +514,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-giftcard_use-commerce_total'
+  // Exported field_instance: 'commerce_line_item-giftcard_use-commerce_total'.
   $field_instances['commerce_line_item-giftcard_use-commerce_total'] = array(
     'bundle' => 'giftcard_use',
     'default_value' => NULL,
@@ -575,7 +576,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-giftcard_use-commerce_unit_price'
+  // 'commerce_line_item-giftcard_use-commerce_unit_price'.
   $field_instances['commerce_line_item-giftcard_use-commerce_unit_price'] = array(
     'bundle' => 'giftcard_use',
     'default_value' => NULL,
@@ -637,7 +638,7 @@ function discimport_discount_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'commerce_line_item-product_discount-commerce_giftcards'
+  // 'commerce_line_item-product_discount-commerce_giftcards'.
   $field_instances['commerce_line_item-product_discount-commerce_giftcards'] = array(
     'bundle' => 'product_discount',
     'default_value' => NULL,
@@ -673,7 +674,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-giftcard-commerce_gc_value'
+  // Exported field_instance: 'commerce_product-giftcard-commerce_gc_value'.
   $field_instances['commerce_product-giftcard-commerce_gc_value'] = array(
     'bundle' => 'giftcard',
     'default_value' => NULL,
@@ -731,7 +732,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-giftcard-commerce_price'
+  // Exported field_instance: 'commerce_product-giftcard-commerce_price'.
   $field_instances['commerce_product-giftcard-commerce_price'] = array(
     'bundle' => 'giftcard',
     'default_value' => NULL,
@@ -882,7 +883,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-giftcard-field_images'
+  // Exported field_instance: 'commerce_product-giftcard-field_images'.
   $field_instances['commerce_product-giftcard-field_images'] = array(
     'bundle' => 'giftcard',
     'deleted' => 0,
@@ -951,7 +952,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-giftcard-title_field'
+  // Exported field_instance: 'commerce_product-giftcard-title_field'.
   $field_instances['commerce_product-giftcard-title_field'] = array(
     'bundle' => 'giftcard',
     'default_value' => NULL,
@@ -1011,7 +1012,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-gift_card-body'
+  // Exported field_instance: 'node-gift_card-body'.
   $field_instances['node-gift_card-body'] = array(
     'bundle' => 'gift_card',
     'default_value' => NULL,
@@ -1068,7 +1069,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-gift_card-field_product'
+  // Exported field_instance: 'node-gift_card-field_product'.
   $field_instances['node-gift_card-field_product'] = array(
     'bundle' => 'gift_card',
     'deleted' => 0,
@@ -1155,7 +1156,7 @@ function discimport_discount_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-gift_card-title_field'
+  // Exported field_instance: 'node-gift_card-title_field'.
   $field_instances['node-gift_card-title_field'] = array(
     'bundle' => 'gift_card',
     'default_value' => NULL,

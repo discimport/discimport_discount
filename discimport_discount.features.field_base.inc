@@ -10,7 +10,7 @@
 function discimport_discount_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'commerce_coupon_conditions'
+  // Exported field_base: 'commerce_coupon_conditions'.
   $field_bases['commerce_coupon_conditions'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -27,7 +27,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'inline_conditions',
   );
 
-  // Exported field_base: 'commerce_coupon_recipient'
+  // Exported field_base: 'commerce_coupon_recipient'.
   $field_bases['commerce_coupon_recipient'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -50,7 +50,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'commerce_display_path'
+  // Exported field_base: 'commerce_display_path'.
   $field_bases['commerce_display_path'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -73,7 +73,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'commerce_gc_mail'
+  // Exported field_base: 'commerce_gc_mail'.
   $field_bases['commerce_gc_mail'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -88,7 +88,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'email',
   );
 
-  // Exported field_base: 'commerce_gc_message'
+  // Exported field_base: 'commerce_gc_message'.
   $field_bases['commerce_gc_message'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -107,7 +107,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'commerce_gc_name'
+  // Exported field_base: 'commerce_gc_name'.
   $field_bases['commerce_gc_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -128,7 +128,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'commerce_gc_value'
+  // Exported field_base: 'commerce_gc_value'.
   $field_bases['commerce_gc_value'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -148,7 +148,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'commerce_price',
   );
 
-  // Exported field_base: 'commerce_giftcard'
+  // Exported field_base: 'commerce_giftcard'.
   $field_bases['commerce_giftcard'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -175,7 +175,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'commerce_giftcards'
+  // Exported field_base: 'commerce_giftcards'.
   $field_bases['commerce_giftcards'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -202,7 +202,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'commerce_product'
+  // Exported field_base: 'commerce_product'.
   $field_bases['commerce_product'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -225,7 +225,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'commerce_product_reference',
   );
 
-  // Exported field_base: 'commerce_total'
+  // Exported field_base: 'commerce_total'.
   $field_bases['commerce_total'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -247,7 +247,7 @@ function discimport_discount_field_default_field_bases() {
     'type' => 'commerce_price',
   );
 
-  // Exported field_base: 'commerce_unit_price'
+  // Exported field_base: 'commerce_unit_price'.
   $field_bases['commerce_unit_price'] = array(
     'active' => 1,
     'cardinality' => 1,

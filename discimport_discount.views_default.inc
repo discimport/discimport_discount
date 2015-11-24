@@ -77,6 +77,17 @@ function discimport_discount_views_default_views() {
   $handler->display->display_options['menu']['name'] = 'main-menu';
   $handler->display->display_options['menu']['context'] = 0;
   $handler->display->display_options['menu']['context_only_inline'] = 0;
+  $translatables['discounted_products'] = array(
+    t('Master'),
+    t('Outlet - få op til 50% rabat'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Page'),
+  );
   $export['discounted_products'] = $view;
 
   return $export;
