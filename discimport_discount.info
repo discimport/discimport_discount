@@ -12,6 +12,7 @@ dependencies[] = commerce_kickstart_product
 dependencies[] = commerce_price
 dependencies[] = commerce_product_reference
 dependencies[] = ctools
+dependencies[] = discimport_roles
 dependencies[] = email
 dependencies[] = entity
 dependencies[] = entityreference
